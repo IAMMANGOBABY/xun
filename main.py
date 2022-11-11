@@ -48,13 +48,6 @@ def get_week_day():
   week_day = week_list[datetime.date(today).weekday()]
   return week_day
 
-# 纪念日正数
-def get_memorial_days_count():
-  if start_date is None:
-    print('没有设置 START_DATE')
-    return 0
-  delta = today - datetime.strptime(start_date, "%Y-%m-%d")
-  return delta.days
 
 # 生日倒计时
 def get_birthday_left():
@@ -136,10 +129,7 @@ data = {
     "value": math.floor(weather['low']),
     "color": get_random_color()
   },
-  "love_days": {
-    "value": get_memorial_days_count(),
-    "color": get_random_color()
-  },
+
   "birthday_left": {
     "value": get_birthday_left(),
     "color": get_random_color()
