@@ -10,7 +10,7 @@ nowtime = datetime.utcnow() + timedelta(hours=8)  # 东八区时间
 today = datetime.strptime(str(nowtime.date()), "%Y-%m-%d") #今天的日期
 
 city = '重庆'
-birthday = '1997-12-31'
+birthday = '12-31'
 
 app_id = os.getenv('APP_ID')
 app_secret = os.getenv('APP_SECRET')
