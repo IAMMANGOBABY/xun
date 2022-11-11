@@ -22,7 +22,7 @@ if app_id is None or app_secret is None:
   print('请设置 APP_ID 和 APP_SECRET')
   exit(422)
 
-if not user_ids:
+if not user_id:
   print('请设置 USER_ID，若存在多个 ID 用回车分开')
   exit(422)
 
