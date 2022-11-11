@@ -148,4 +148,4 @@ if __name__ == '__main__':
     print('微信端返回错误：%s。错误代码：%d' % (e.errmsg, e.errcode))
     exit(502)
 
-  print("发送了" + str(count) + "条消息")
+  print("发送了消息")
