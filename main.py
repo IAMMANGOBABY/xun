@@ -12,11 +12,11 @@ today = datetime.strptime(str(nowtime.date()), "%Y-%m-%d") #今天的日期
 city = '重庆'
 birthday = '12-31'
 
-app_id = os.getenv('APP_ID')
-app_secret = os.getenv('APP_SECRET')
+app_id = 'wx3d3287c20f6f470a'
+app_secret = '0939e4b6ca248c4e0d28f36679ca379a'
 
-user_ids = os.getenv('USER_ID', '').split("\n")
-template_id = os.getenv('TEMPLATE_ID')
+user_ids = 'o_TZC5xfhejTsOWvV-k2_mKBAnrc'
+template_id = 'GdSa_WuN_5F2faqKH3VOec-r117l5KamiG0Y1DqLhfY'
 
 if app_id is None or app_secret is None:
   print('请设置 APP_ID 和 APP_SECRET')
