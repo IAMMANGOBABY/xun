@@ -15,7 +15,7 @@ birthday = '12-31'
 app_id = 'wx3d3287c20f6f470a'
 app_secret = '0939e4b6ca248c4e0d28f36679ca379a'
 
-user_ids = 'o_TZC5xfhejTsOWvV-k2_mKBAnrc'
+user_id = 'o_TZC5xfhejTsOWvV-k2_mKBAnrc'
 template_id = 'GdSa_WuN_5F2faqKH3VOec-r117l5KamiG0Y1DqLhfY'
 
 if app_id is None or app_secret is None:
